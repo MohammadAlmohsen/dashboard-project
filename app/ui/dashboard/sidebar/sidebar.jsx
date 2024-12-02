@@ -11,6 +11,7 @@ import {
   MdPeople,
   MdOutlineSettings,
   MdHelpCenter,
+  MdLogin,
 } from "react-icons/md";
 import MenuLink from "./menuLink/menuLink";
 
@@ -97,6 +98,9 @@ const Sidebar = () => {
             </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <MdLogin/>
+        Logout</button>
     </div>
   );
 };
